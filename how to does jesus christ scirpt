@@ -1,0 +1,7 @@
+// This function will check if the input string contains the words "God", "Jesus", and "Christ" and if so, will return a boolean value of true.
+function godJesusChristBanish(str) {
+    let god = str.includes("God");
+    let jesus = str.includes("Jesus");
+    let christ = str.includes("Christ");
+    return god && jesus && christ;
+}
